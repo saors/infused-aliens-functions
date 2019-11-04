@@ -164,9 +164,14 @@ infused_aliens_functions.create_new_unit_prototypes = function(buff_string)
 
     --set spawner modifications
     for _1, entry in pairs(applicable_entries) do
+      if string.find(entry.buff_key, "sharpened") then
+      end
       for attribute_key, mod_type in pairs(entry["buff_value"]["modifications"]) do
         for mod_key, mod_val in pairs(mod_type) do
           if mod_key == spawner then
+            if(mod_val == "nil") then
+              mod_val = nil
+            end
             if type(mod_val) == "table" then
               modified_spawners[spawner_key][attribute_key] = infused_aliens_functions.merge_tables(modified_spawners[spawner_key][attribute_key], mod_val)           
             else
