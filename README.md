@@ -47,7 +47,7 @@ This is the bread and butter of this mod, as it will take all of the buff templa
 This uses a [power set](https://rosettacode.org/wiki/Power_set) (thanks TehFreek)
 in order to create every combination with an without each buff.
 
-In [my other mod](https://mods.factorio.com/mod/infused_aliens), I push 4 buff templates into this mod, which then creates 15 different buff combinations, which are applied to 2 different spawner type and 8 vanilla units. This comes out to 15*2 = 30 new spawner prototypes and 15*8=120 new unit prototypes.
+In [my other mod](https://mods.factorio.com/mod/infused_aliens), I push 4 buff templates into this mod, which then creates 15 different buff combinations, which are applied to 2 different spawner type and 8 vanilla units. This comes out to 15\*2 = 30 new spawner prototypes and 15\*8=120 new unit prototypes.
 
 ## Acknowledgments
 #mod-making on the Factorio Discord channel  
